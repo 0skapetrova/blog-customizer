@@ -34,11 +34,11 @@ export const ArticleParamsForm: React.FC<{
 	);
 
 	const cssVars = {
-		'--font-family': stateFontFamily.className,
-		'--font-size': stateFontSize.className,
-		'--font-color': stateFontColor.className,
-		'--container-width': stateContentWidth.className,
-		'--bg-color': stateBackgroundColor.className,
+		'--font-family': stateFontFamily.value,
+		'--font-size': stateFontSize.value,
+		'--font-color': stateFontColor.value,
+		'--container-width': stateContentWidth.value,
+		'--bg-color': stateBackgroundColor.value,
 	};
 
 	const formStyle = clsx({
